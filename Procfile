@@ -1,1 +1,2 @@
-web: npm run start
+web: yarn start
+web: yarn prisma generate
