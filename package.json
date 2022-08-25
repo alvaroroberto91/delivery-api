@@ -5,10 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --transpile-only --exit-child --ignore-watch node_modules src/server.ts",
-    "start": "node src/server.ts",
-    "postinstall": "tsc",
-    "watch-node": "nodemon sec/server.ts",
-    "watch-ts": "tsc -w"
+    "start": "node src/server.ts"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
