@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node-dev --transpile-only --exit-child --ignore-watch node_modules src/server.ts",
     "start": "ts-node --transpile-only src/server.ts",
-    "heroku-postbuild": "yarn prisma migrate dev && yarn build:production"
+    "heroku-postbuild": "yarn prisma genarate && yarn build:production"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
